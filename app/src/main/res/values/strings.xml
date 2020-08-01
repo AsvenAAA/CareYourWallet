@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Care your wallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="standard_main_llayout_weight">0.65</string>
+    <string name="standard_minor_llayout_weight">0.35</string>
+    <string name="recycler_text_example">Example</string>
+    <string name="expenses">Ex:</string>
+    <string name="income">In:</string>
+    <string name="profit">Pr:</string>
+</resources>
