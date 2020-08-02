@@ -9,9 +9,23 @@
 
     <style name="MainTextTheme">
         <item name="android:fontFamily">@font/caesar_dressing</item>
-        <item name="android:textSize">@dimen/standard_padding</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
         <item name="android:padding">@dimen/standard_padding</item>
         <item name="android:textColor">@color/colorRomanPurple</item>
+    </style>
+
+    <style name="IncomeTextStyle">
+        <item name="android:fontFamily">@font/caesar_dressing</item>
+        <item name="android:textSize">@dimen/little_text_size</item>
+        <item name="android:padding">@dimen/little_padding</item>
+        <item name="android:textColor">@color/colorIncome</item>
+    </style>
+
+    <style name="ExpensesTextStyle">
+        <item name="android:fontFamily">@font/caesar_dressing</item>
+        <item name="android:textSize">@dimen/little_text_size</item>
+        <item name="android:padding">@dimen/little_padding</item>
+        <item name="android:textColor">@color/colorExpenses</item>
     </style>
 
 </resources>
