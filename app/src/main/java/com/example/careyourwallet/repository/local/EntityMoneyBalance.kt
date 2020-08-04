@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.time.LocalDate
 
-@Entity
+@Entity(tableName = "balance_table")
 data class EntityMoneyBalance (
     @PrimaryKey(autoGenerate = true) val id : Int = 0,
     @ColumnInfo(name = "date") val date : LocalDate,
