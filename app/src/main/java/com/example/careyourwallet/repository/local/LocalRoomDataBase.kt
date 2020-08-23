@@ -11,7 +11,7 @@ abstract class LocalRoomDataBase : RoomDatabase() {
     abstract val entityMoneyBalance : EntityMoneyBalance
 
     companion object {
-        // Аннотация @Volatile запрещает ккешировать данные, вся информация будет
+        // Аннотация @Volatile запрещает кешировать данные, вся информация будет
         // записываться напрямую в память устройства и читаться из нее же
         // Она предотвращает ситуации когда одновременно несколько запросов меняют одну и ту же ячейку однвеменно
         @Volatile
